@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Maintain Data</h1>
+    {% for game in games %}
+      <p>Game Number: {{ game.gameNumber }}</p>
+      <p>Home Team: {{ game.homeTeam }}</p>
+      <p>Away Team: {{ game.awayTeam }}</p>
+      <p>Status: {{ game.gameStatus }}</p>
+      <hr>
+    {% endfor %}
+  </body>
+</html>

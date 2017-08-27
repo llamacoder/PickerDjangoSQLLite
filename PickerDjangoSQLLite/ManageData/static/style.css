@@ -1,0 +1,33 @@
+/*  css for manageData app */
+
+body {
+  background-color: #ddd;
+  font-size: 16px;
+}
+main {
+  margin: 0 auto;
+}
+section {
+  min-width: 400px;
+  background-color: white;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 10px 10px 10px;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.away-title {
+  font-size: 1em;
+}
+.home-title {
+  font-size: 1em;
+}
+.status-title {
+  font-size: 2em;
+  color: #aaa;
+}

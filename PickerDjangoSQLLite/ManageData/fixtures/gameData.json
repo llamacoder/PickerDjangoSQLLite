@@ -1,0 +1,41 @@
+[
+  {
+    "model": "ManageData.Game",
+    "pk": 1,
+    "fields": {
+      "weekNumber": 1,
+      "gameNumber": 1,
+      "homeTeam": "BRONCOS",
+      "awayTeam": "CHARGERS",
+      "gameStatus": "IP",
+      "homeScore": 0,
+      "awayScore": 0
+    }
+  },
+  {
+    "model": "ManageData.Game",
+    "pk": 2,
+    "fields": {
+      "weekNumber": 1,
+      "gameNumber": 2,
+      "homeTeam": "Broncos",
+      "awayTeam": "Bills",
+      "gameStatus": "IP",
+      "homeScore": 0,
+      "awayScore": 0
+    }
+  },
+  {
+    "model": "ManageData.Game",
+    "pk": 3,
+    "fields": {
+      "weekNumber": 1,
+      "gameNumber": 3,
+      "homeTeam": "Cardinals",
+      "awayTeam": "Chiefs",
+      "gameStatus": "IP",
+      "homeScore": 0,
+      "awayScore": 0
+    }
+  }
+]
